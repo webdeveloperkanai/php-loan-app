@@ -1,0 +1,211 @@
+/**/
+
+.footerBar {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgb(173, 17, 69);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    z-index: 99; 
+}
+.topBar{ 
+    position: fixed;
+    display: flex;
+    padding: 15px 55px;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    color: white;
+    text-align: center;
+    width: 100%;
+    background:  rgb(173, 17, 69);
+    top: 0px;
+}
+
+.leftSidebar {
+    width: 70%;
+    background:  #ececec;;
+    padding-top: 80px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    display: none;
+}
+
+.leftSidebar li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    padding: 8px 0px;
+    transition: 0.4s;
+    margin-left: -30px;
+    padding-left: 15px;
+
+}
+.leftSidebar li:hover {
+    background: lightblue;
+}
+.leftSidebar li a {
+    color: rgb(8, 30, 71);
+    text-transform: none;
+    padding: 15px 0px;
+    font-weight: bold; 
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.leftMenuBar {
+    position: fixed;
+    padding: 15px;
+    font-size: 26px;
+    z-index: 99;
+    left: 15px;
+}
+.leftMenuBar {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+.leftMenuBar i {
+    font-size: 36px;
+}
+.rightMenuBar {
+    position: fixed;
+    padding: 15px;
+    font-size: 26px;
+    z-index: 99;
+    right: 15px;
+}
+.rightMenuBar {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+}
+.rightMenuBar i {
+    font-size: 36px;
+}
+.footerBar a {
+    padding: 15px; 
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    line-height: 10px;
+    text-decoration: none;
+}
+
+.footerBar a small {
+    margin-top: -15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.topBg{
+    height: 30vh;
+    width: 100%;
+    z-index: -999;
+    position:absolute;
+    background: rgb(173, 17, 69);
+    top: 0px;
+}
+.closingButton {
+    right: 50px;
+    position: fixed;
+    top: 20px;
+    background: black;
+    padding: 15px;
+    color: white;
+    transition: 0.4s;
+    border: 1px solid transparent;
+}
+.closingButton:hover {
+    background: white; 
+    color: black;
+    border: 1px solid black;
+}
+
+.overflowDiv {
+    background: rgb(255, 255, 255);
+    height: 250px; 
+    width: 94%;
+    margin: 3%;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px #eee;
+}
+.overflowDiv {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+
+}
+.overflowDiv small {
+    margin-top: 35px;
+}
+
+.PayBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.PayBox a {
+    width: 30%;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 15px;
+    height: 31%;
+    height: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:rgb(173, 17, 69);
+}
+.PayBox a i {
+    font-size: 36px;
+    margin-top: -10px;
+}
+.keyDown i{
+    font-size: 56px;
+    color: rgb(173, 17, 69);
+}
+
+.sliders {
+    width: 100%;
+    height: 200px;
+}
+.sliders img {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.loans {
+    margin-top: 50px; 
+}
+.loan {
+    padding: 5px; 
+    display: flex; 
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.loan .desc {
+    padding-left: 15px;
+}
+.loan img {
+    height: 90px;
+    width:  90px; 
+}
+.loan i {
+    font-size: 36px;
+    margin-top: 30px;
+    color: rgb(173, 17, 69)
+}
